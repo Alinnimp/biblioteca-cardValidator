@@ -9,7 +9,7 @@ Nesta versão validamos um número de cartão de crédito como válido ou invál
 Exemplo:
 
     $node
-    > let cardValidate = require("biblioteca_cartao")
+    > let cardValidate = require("biblioteca_cardValidator")
     > cardValidate.cardValidator(36490102462661); // true
 
 ## Version 1.0.0
@@ -26,7 +26,7 @@ Exemplo:
 
 - Continue a instalação com:
 
-      $npm install biblioteca_cartao
+      $npm install biblioteca_cardValidator
 
 ## Roadmap do projeto
 
