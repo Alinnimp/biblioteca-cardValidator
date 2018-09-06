@@ -1,6 +1,6 @@
 {
   "name": "card-amp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca Validar Cartão de Crédito ",
   "main": "index.js",
   "directories": {
