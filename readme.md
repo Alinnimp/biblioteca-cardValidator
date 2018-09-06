@@ -1,4 +1,4 @@
-# Validador de cartão de crédito v 1.0.0
+# Validador de cartão de crédito v 1.0.2
 
 Nesta versão validamos um número de cartão de crédito como válido ou inválido.
 
@@ -12,7 +12,7 @@ Exemplo:
     > let cardValidate = require("biblioteca_cardValidator")
     > cardValidate.cardValidator(36490102462661); // true
 
-## Version 1.0.0
+## Version 1.0.2
 
 - Funcionalidades: validar um número de cartão de crédito
 
@@ -30,7 +30,7 @@ Exemplo:
 
 ## Roadmap do projeto
 
-#### Versão 1.0.0 (released)
+#### Versão 1.0.2 (released)
 
 - Funcionalidades: validar um número de cartão de crédito
 
