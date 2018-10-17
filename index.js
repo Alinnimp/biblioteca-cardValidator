@@ -1,12 +1,12 @@
 function cardValidator(numCartao) {
     if (!numCartao) {
-        throw new Error("Não pode ser vazio");
+        throw new Error("Can not be empty");
     }
     if (typeof numCartao === "string") {
-        throw new Error("Contém string");
+        throw new Error("Contains string");
     }
     if (numCartao.toString().length < 10) {
-        throw new Error("Digitos menor do que o esperado");
+        throw new Error("Digits smaller than expected");
     }
 
     let numCard = numCartao.toString().split("").reverse();
@@ -23,9 +23,7 @@ function cardValidator(numCartao) {
         }
     }
     if (total % 10 === 0) {
-        return true;
-    } else {
-        return false;
+      return (total % 10 === 0);
     }
-}
+  }
 module.exports.cardValidator = cardValidator;
