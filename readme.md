@@ -1,12 +1,12 @@
-# Validador de cartão de crédito v 1.0.2
+# Credit card validator v 1.0.2
 
-Nesta versão validamos um número de cartão de crédito como válido ou inválido.
+In this version we validate a credit card number as valid or invalid.
 
-## Métodos utilizados
+## Methods used
 
 #### cardValidator(numCartao);
 
-Exemplo:
+Example:
 
     $node
     > let cardValidate = require("biblioteca_cardValidator")
@@ -14,24 +14,24 @@ Exemplo:
 
 ## Version 1.0.2
 
-- Funcionalidades: validar um número de cartão de crédito
+- Features: Validate a credit card number
 
-- Retorna um booleano, se o número for válido (true) ou inválido (false)
+- Returns a Boolean if the number is valid (true) or invalid (false)
 
-## Instalação
+## Installation
 
-- Você deve ter o node + npm instalados
+- You must have node + npm installed
 
-- Para ver o guia de instalação, visite o [site oficial](https://www.npmjs.com/get-npm "site oficial")
+- To see the installation guide, visit the [official website](https://www.npmjs.com/get-npm "official website")
 
-- Continue a instalação com:
+- Continue the installation with:
 
       $npm install biblioteca_cardValidator
 
-## Roadmap do projeto
+## Roadmap from the project
 
-#### Versão 1.0.2 (released)
+#### Version 1.0.2 (released)
 
-- Funcionalidades: validar um número de cartão de crédito
+- Features: Validate a credit card number
 
-- Retorna um booleano, se o número for válido (true) ou inválido (false)
+- Returns a Boolean if the number is valid (true) or invalid (false)
